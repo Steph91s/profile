@@ -1,0 +1,201 @@
+body {
+  background: #F7F9FC;
+  color: #677196;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 17px;
+  line-height: 1.6;
+  font-weight: 300;
+}
+
+h1, h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  color: #16324F;
+  font-size: 32px;
+  font-weight: 900;
+}
+
+h2 {
+  color: #3E92CC;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+a {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color: #2A628F;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.container {
+  width: 700px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.card-white {
+  background: white;      
+  padding: 30px;          
+  border-radius: 4px;     
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  margin: 20px 0px;
+  text-align: center; 
+}
+
+.img-circle {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.btn-blue {
+  background-color: #16324F;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+.btn-blue:hover {
+  background-color: black;
+  color: white;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 10px;
+}
+
+.list-inline i {
+  font-size: 40px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+#introduction p {
+  margin-bottom: 40px;
+}
+
+#banner-sustain{
+  text-align: center;
+  background-image: url("images/sustainability1.jpg");
+  background-size: cover;
+  background-position: 50% 50%;
+  padding: 40px 0;
+  color: white;
+}
+
+#banner-sustain h2 {
+  color: white;
+  font-weight: bold;
+}
+
+#banner-sustain li {
+  color: #cdb30c;
+  font-weight: bold;
+}
+
+#banner-tech{
+  text-align: center;
+  background-image: url("images/tech.jpg");
+  background-size: cover;
+  background-position: 50% 50%;
+  padding: 40px 0;
+  color: white;
+}
+
+#banner-tech h2 {
+  color: white;
+  font-weight: bold;
+}
+
+#banner-tech li {
+  color: #cdb30c;
+  font-weight: bold;
+}
+
+#banner-movies{
+  text-align: center;
+  background-image: url("images/movie1.jpg");
+  background-size: cover;
+  background-position: 50% 50%;
+  padding: 40px 0;
+  color: white;
+}
+
+#banner-movies h2 {
+  color: white;
+  font-weight: bold;
+}
+
+#banner-movies li {
+  color: #cdb30c;
+  font-weight: bold;
+}
+
+#banner-travel{
+  text-align: center;
+  background-image: url("images/travel2.jpg");
+  background-size: cover;
+  background-position: 50% 50%;
+  padding: 40px 0;
+  color: white;
+}
+
+#banner-travel h2 {
+  color: white;
+  font-weight: bold;
+}
+
+#banner-travel li {
+  color: #cdb30c;
+  font-weight: bold;
+}
+
+#banner-investing{
+  text-align: center;
+  background-image: url("images/invest.jpg");
+  background-size: cover;
+  background-position: 50% 50%;
+  padding: 40px 0;
+  color: white;
+}
+
+#banner-investing h2 {
+  color: white;
+  font-weight: bold;
+}
+
+#banner-investing li {
+  color: #cdb30c;
+  font-weight: bold;
+}
